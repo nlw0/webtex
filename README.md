@@ -106,7 +106,7 @@ become more easily configured in a later version.
 ## Running
 
 This application is now containerized, start with:
-```docker run -p 8080:8080 --env-file environment kthse/webtex:latest```
+```docker run -p 8080:8080 --env-file environment.in kthse/webtex:latest```
 
 Where the file environment can be created using the skeleton environment.in in the Git repository.
 
